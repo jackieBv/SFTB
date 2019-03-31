@@ -13,17 +13,19 @@ import { HeaderComponent } from './shared/header/header.component';
 import { SliderComponent } from './shared/slider/slider.component';
 import { HomeComponent } from './shared/home/home.component';
 import { APP_ROUTES } from './app.route';
+import { ReservationComponent } from './pages/reservation/reservation.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-ReservaComponent,
+ReservationComponent,
     FooterComponent,
     HeaderComponent,
     SliderComponent,
     HomeComponent,
-
+ContactComponent,
     HeaderComponent,
   ],
   imports: [
