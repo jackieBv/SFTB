@@ -15,16 +15,17 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Inicio</a></li>
 
-                <li><a href="./pages/reservation.html">Reserva</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li>
+                    <a [routerLink]="['/reservation']">Reserva</a></li>
+                <li><a [routerLink]="['/contact']">Contacto</a></li>
             </ul>
 
-            <form action="" class="navbar-form navbar-right" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Usuario">
+            <form action=" " class="navbar-form navbar-right " role="search ">
+                <div class="form-group ">
+                    <input type="text " class="form-control " placeholder="Usuario ">
                 </div>
-                <button type="submit" class="btn btn-primary">
-          <span class="glyphicon glyphicon-search"></span>
+                <button type="submit " class="btn btn-primary ">
+          <span class="glyphicon glyphicon-search "></span>
         </button>
             </form>
         </div>
