@@ -4,6 +4,10 @@ import { RouterModule } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
+
+import { MenuComponent } from './shared/menu/menu.component';
+
+
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { SliderComponent } from './shared/slider/slider.component';
@@ -16,12 +20,14 @@ import { HomeComponent } from './pages/home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
+    MenuComponent,
+ReservationComponent,
     FooterComponent,
     HeaderComponent,
     SliderComponent,
     HomeComponent,
-    ReservationComponent,
-    ContactComponent
+ContactComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,RouterModule,
