@@ -8,5 +8,6 @@ const appRoutes: Routes = [
     
     {path:'reservation', component:ReservationComponent},
     {path:'contact', component:ContactComponent}
+
 ]; 
 export const APP_ROUTES = RouterModule.forRoot(appRoutes, {useHash:true}) 
